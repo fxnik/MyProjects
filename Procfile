@@ -1,1 +1,1 @@
-web: gunicorn Python_Flask_1:Python_Flask_1
+worker: python Python_Flask_1.py $PORT
